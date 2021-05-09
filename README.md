@@ -12,13 +12,19 @@ Assignment in the context of [Complex Data Management](https://www.cs.uoi.gr/cou
  
  <h2>Code files</h2>
  <li>r_tree.py: R tree conctruction by minimum bounding rectangle.Each node containement is >=8 and <=20,root could have >=2 and <=20</li>
-  
+ <p>      </p>
+ 
+ > python3 r_tree.py coords.txt offsets.txt
  
  <li>rangeQueries.py: Searching in R-tree by specific window rectangles for finding included rectangle objects or objects that intersect</li>
+ <p>      </p>
  
+ > python3 rangeQueries.py Rtree.txt Rqueries.txt
  
  <li>bfs_nn.py : incremental NN search in R-tree for finding closest neighbors of specific points</li>
- 
+ <p>      </p>
+  
+ >python3 bfs_nn.py Rtree.txt NNqueries.txt 10
  
  
  <h3>Language</h3>
